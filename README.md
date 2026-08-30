@@ -3,6 +3,13 @@
 
 An [em_filter](https://hex.pm/packages/em_filter) agent that searches the [npm registry](https://www.npmjs.com/) and returns package information as [Emergence](https://github.com/EmergenceSystem/em_disco) results.
 
+
+<!-- emergence-context -->
+Part of **[EmergenceSystem](https://github.com/EmergenceSystem)** — a distributed
+discovery network of small, single-source agents. This filter joins the em_pop gossip
+mesh and answers `POST /agent/query`; Emquest fans each query out to many filters in
+parallel and aggregates the results.
+
 ## Query
 
 Any keyword, package name, or author query accepted by the npm search API.
